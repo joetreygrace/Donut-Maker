@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+
 body {
   background-image: url(/pics/donuts.jpg);
   height: 100%;
@@ -15,5 +18,63 @@ body {
   height: 100%;
   z-index: 0;
   background-color: rgba(13, 122, 99, 0.6);
-  color: white;
+  color: yellow;
+  font-family: 'Cantora One', sans-serif;
+} 
+
+.donut-button img{
+    padding: 0;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.donut-button{
+    border: 0;
+    padding: 0;
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+}
+
+.clicker-button img{
+    padding: 0;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.clicker-button{
+    display: none;
+    border: 0;
+    padding: 0;
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+}
+
+.clicker-button-on{
+    display: inline;
+}
+
+.amount-of-donuts{
+    font-family: 'Wallpoet', cursive;
+    font-size: 50px;
+    color: hotpink;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.amount-of-clickers{
+    font-family: 'Wallpoet', cursive;
+    font-size: 50px;
+    color: hotpink;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.clicker-cost{
+    font-family: 'Wallpoet', cursive;
+    font-size: 50px;
+    color: hotpink;
+    margin: 0;
+    margin-bottom: 20px;
 }

@@ -1,4 +1,3 @@
-
 class Donut {
   constructor() {
     this.count = 0;
@@ -9,7 +8,7 @@ class Donut {
     this.multiplierCost = 10;
   }
   donutClick() {
-    this.count += Math.ceil(this.multiplier);
+    this.count += this.multiplier;
   }
   buyAutoClicker() {
     this.count = Math.round(this.count - this.autoClickersCost);
